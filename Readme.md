@@ -12,3 +12,7 @@ to practice the Access Modifiers and Getters/Setters.
 to practice Inheritance and code reusability.
 
 ![Inheritance](Inheritance.png)
+
+**3.Abstraction**: The *Person* class is abstract, with `mainTask()` implemented by its subclasses.
+
+![Abstraction](Abstraction.png)

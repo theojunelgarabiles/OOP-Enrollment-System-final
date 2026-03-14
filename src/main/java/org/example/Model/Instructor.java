@@ -3,7 +3,9 @@ package org.example.Model;
 public class Instructor extends Person {
     private String Courses;
 
-    public Instructor() {}
+    public Instructor() {
+
+    }
 
     public Instructor(int ID, String Name, String Courses) {
         super(ID, Name);
@@ -16,6 +18,11 @@ public class Instructor extends Person {
 
     public void setCourses(String Courses) {
         this.Courses = Courses;
+    }
+
+    @Override
+    public void mainTask() {
+        System.out.println("Teaching");
     }
 
     @Override

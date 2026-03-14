@@ -19,6 +19,11 @@ public class Student extends Person {
     }
 
     @Override
+    public void mainTask(){
+    System.out.println("Studying");
+    }
+
+    @Override
     public String toString() {
         return super.toString() + ", Program: " + program;
     }
