@@ -1,6 +1,6 @@
 package org.example.Model;
 
-public class Person {
+public abstract class Person {
     private int ID;
     private String Name;
 
@@ -26,6 +26,7 @@ public class Person {
     public void setName(String name) {
         this.Name = name;
     }
+    public abstract void mainTask();
 
     @Override
     public String toString() {

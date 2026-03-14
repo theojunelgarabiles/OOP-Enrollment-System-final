@@ -21,6 +21,11 @@ public class Instructor extends Person {
     }
 
     @Override
+    public void mainTask() {
+        System.out.println("Teaching");
+    }
+
+    @Override
     public String toString() {
         return super.toString() + ", Courses: " + Courses;
     }
